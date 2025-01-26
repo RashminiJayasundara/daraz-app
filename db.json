@@ -1,4 +1,4 @@
-[
+{"products":[
     {
       "id": 1,
       "name": "Apple iPhone 12",
@@ -7,7 +7,10 @@
       "category": "Electronics",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-12_red-product(1)_10132020_big.jpg.large.jpg"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://geniusmobile.lk/wp-content/uploads/2023/09/iphone-15.jpg",
+      "soldBy":1284
     },
     {
       "id": 2,
@@ -17,7 +20,10 @@
       "category": "Electronics",
       "ratings":4.2,
       "count": 23,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-g991bzviinu/gallery/in-galaxy-s21-5g-g991-sm-g991bzviinu-thumb-346754727?$LazyLoad_Home_IMG$"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://emobile.lk/image/cache/catalog/Samsung%20Galaxy%20A05s-500x500.jpg",
+      "soldBy":1281
     },
     {
       "id": 3,
@@ -27,7 +33,10 @@
       "category": "Electronics",
       "ratings":3.7,
       "count": 34,
-      "image": "https://www.sony.com/image/44baa604124b770c82401a2dbd78ebaf?fmt=pjpeg&wid=720&bgcolor=F1F5F9&bgc=F1F5F9"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.zdnet.com/a/img/resize/b153b7eeee02c48a45e2dc0cd73406970dad1b7d/2022/01/20/4c865ce2-9b6a-43a8-a9b9-80351289021b/sony-xperia-pro-i-2.jpg?auto=webp&fit=crop&height=1200&width=1200",
+      "soldBy":1281
     },
     {
       "id": 4,
@@ -37,7 +46,10 @@
       "category": "Electronics",
       "ratings":4.8,
       "count": 100,
-      "image": "https://www.lg.com/us/images/tvs/md07501804/gallery/desktop-01.jpg"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.lg.com/lk/images/tvs/md07528308/gallery/D-1.jpg",
+      "soldBy":1282
     },
     {
       "id": 5,
@@ -46,8 +58,11 @@
       "price": 299.00,
       "category": "Electronics",
       "ratings":4.5,
+      "reviewsCount":23,
+      "soldCount":111,
       "count": 340,
-      "image": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/quietcomfort_35_ii_silver/product_silo_images/qc35ii_silver_EC_hero_010719.psd/_jcr_content/renditions/cq5dam.web.720.720.jpeg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmHcEKd3Nqr3Nm3_3hSezsH6Z4wtiriGK6TA&s",
+      "soldBy":1282
     },
     {
       "id": 6,
@@ -56,8 +71,11 @@
       "price": 229.95,
       "category": "Electronics",
       "ratings":4.7,
+      "reviewsCount":23,
+      "soldCount":111,
       "count": 234,
-      "image": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/versa-3/hero/PDP-Versa-3-Carbon-Aluminum-Hero.png"
+      "image": "https://celltronics.lk/wp-content/uploads/2023/09/New-HK8-Pro-Max-Multi-Functional-Smart-Watch.jpg",
+      "soldBy":1284
     },
     {
       "id": 7,
@@ -67,7 +85,10 @@
       "category": "Home & Kitchen",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.kitchenaid.com/content/dam/global/kitchenaid/countertop-appliances/stand-mixers/hero-kitchenaid-stand-mixers-ksm150ps-bw-1600.png"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://m.media-amazon.com/images/I/719Ma759LbS._AC_SL1500_.jpg",
+      "soldBy":1281
     },
     {
       "id": 8,
@@ -77,7 +98,10 @@
       "category": "Home Appliances",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.dysoncanada.ca/dam/dyson/images/promotions/desktop-promotions/v11-absolute-blue-desktop-3col-242x254.jpg"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://damro.lk/wp-content/uploads/2020/05/IVCW002-548x450.jpg",
+      "soldBy":1281
     },
     {
       "id": 9,
@@ -87,7 +111,10 @@
       "category": "Home & Kitchen",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.ninjakitchen.com/medias/Ninja-OP500W-Foodi-Smart-XL-6-in-1-Indoor-Grill-with-4-qt-Air-Fryer-and-Dehydrator-2.png?context=bWFzdGVyfGltYWdlc3wyNjAwMDh8aW1hZ2UvcG5nfGltYWdlcy9oMTYvaDIzLzkxNzA0MTU0NTE5MjYucG5nfDM2NzllYjM5YzI5NmMxZWE5ZjQ5ZDY3MTBhMTY4YWE4NTY4YjczOTJmMzkwZGJmYmZiNDEyMTM1YmYwMTg2MzQ"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.ninjakitchen.com/medias/Ninja-OP500W-Foodi-Smart-XL-6-in-1-Indoor-Grill-with-4-qt-Air-Fryer-and-Dehydrator-2.png?context=bWFzdGVyfGltYWdlc3wyNjAwMDh8aW1hZ2UvcG5nfGltYWdlcy9oMTYvaDIzLzkxNzA0MTU0NTE5MjYucG5nfDM2NzllYjM5YzI5NmMxZWE5ZjQ5ZDY3MTBhMTY4YWE4NTY4YjczOTJmMzkwZGJmYmZiNDEyMTM1YmYwMTg2MzQ",
+      "soldBy":1281
     },
     {
       "id": 10,
@@ -97,7 +124,10 @@
       "category": "Electronics",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.canon.com.au/-/media/images/products/cameras/dslr/canon-eos-rebel-t8i/canon-eos-rebel-t8i-hero-product-image.jpg"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.canon.com.au/-/media/images/products/cameras/dslr/canon-eos-rebel-t8i/canon-eos-rebel-t8i-hero-product-image.jpg",
+      "soldBy":1284
     },
     {
       "id": 11,
@@ -107,7 +137,10 @@
       "category": "Electronics",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.apple.com/v/airpods-pro/b/images/meta/og__amg0zzu6pau6_preview.png"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.apple.com/v/airpods-pro/b/images/meta/og__amg0zzu6pau6_preview.png",
+      "soldBy":1284
     },
     {
       "id": 12,
@@ -117,7 +150,10 @@
       "category": "Electronics",
       "ratings":4.7,
       "count": 234,
-      "image": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/quietcomfort_35_ii/product_silo_images/qc35_ii_black_EC_hero_010718.psd/_jcr_content/renditions/cq5dam.web.320.320.jpeg"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/quietcomfort_35_ii/product_silo_images/qc35_ii_black_EC_hero_010718.psd/_jcr_content/renditions/cq5dam.web.320.320.jpeg",
+      "soldBy":1284
     },
     {
       "id": 13,
@@ -127,7 +163,10 @@
       "category": "Electronics",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/charge-4/hero/PDP-Charge-4-Black-Hero.png"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/charge-4/hero/PDP-Charge-4-Black-Hero.png",
+      "soldBy":1284
     },
     {
       "id": 14,
@@ -137,7 +176,10 @@
       "category": "Electronics",
       "ratings":4.7,
       "count": 234,
-      "image": "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch3/images/gallery/galaxy-watch3-01.png?$720_576_PNG$"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch3/images/gallery/galaxy-watch3-01.png?$720_576_PNG$",
+      "soldBy":1284
     },
     {
       "id": 15,
@@ -147,7 +189,10 @@
       "category": "Electronics",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.sony.com/image/1cdd6354c4cd21cc4f7ec78f9e9ad165?fmt=pjpeg&wid=660&hei=660&bgcolor=F1F5F9&bgc=F1F5F9"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.sony.com/image/1cdd6354c4cd21cc4f7ec78f9e9ad165?fmt=pjpeg&wid=660&hei=660&bgcolor=F1F5F9&bgc=F1F5F9",
+      "soldBy":1284
     },
     {
       "id": 16,
@@ -157,7 +202,10 @@
       "category": "Home & Kitchen",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.breville.com/content/dam/breville/ca/Images/Products/Espresso/BES870XL/hero.jpg"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.breville.com/content/dam/breville/ca/Images/Products/Espresso/BES870XL/hero.jpg",
+      "soldBy":1284
     },
     {
       "id": 17,
@@ -167,7 +215,10 @@
       "category": "Home & Kitchen",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.keurig.com/content/dam/global-ecom/landing-pages/k-elite/k-elite-product-page/k-elite-platinum.png"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.keurig.com/content/dam/global-ecom/landing-pages/k-elite/k-elite-product-page/k-elite-platinum.png",
+      "soldBy":1282
     },
     {
       "id": 18,
@@ -177,7 +228,10 @@
       "category": "Home & Kitchen",
       "ratings":4.7,
       "count": 234,
-      "image": "https://store.irobot.com/default/i7-vacuuming-robot/i755020/irobot-roomba-i7-robot-vacuum/1.png"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://store.irobot.com/default/i7-vacuuming-robot/i755020/irobot-roomba-i7-robot-vacuum/1.png",
+      "soldBy":1282
     },
     {
       "id": 19,
@@ -187,7 +241,10 @@
       "category": "Home & Kitchen",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.ninjakitchen.com/static/img/products/cov/ninja-foodi-digital-air-fry-oven-SP101.png"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.ninjakitchen.com/static/img/products/cov/ninja-foodi-digital-air-fry-oven-SP101.png",
+      "soldBy":1282
     },
     {
       "id": 20,
@@ -197,6 +254,123 @@
       "category": "Home & Kitchen",
       "ratings":4.7,
       "count": 234,
-      "image": "https://www.cuisinart.com/share/images/products/large/ICE-70.png"
+      "reviewsCount":23,
+      "soldCount":111,
+      "image": "https://www.cuisinart.com/share/images/products/large/ICE-70.png",
+      "soldBy":1282
+    }
+  ],
+
+  "stores":[
+    {
+      "id":1280,
+      "name":"Watch Fasion Store",
+      "location":"Rathnapura",
+      "openDate": "2023/02/12"
+    },
+    {
+      "id":1281,
+      "name":"Abans",
+      "location":"Rathmalana",
+      "openDate": "2023/02/12"
+    },
+    {
+      "id":1282,
+      "name":"Singer",
+      "location":"Rajagiriya/ Colombo 2",
+      "openDate": "2023/02/12"
+    },
+    {
+      "id":1283,
+      "name":"Asiri Printers",
+      "location":"Wattala/ Colombo 7",
+      "openDate": "2023/02/12"
+    },
+    {
+      "id":1284,
+      "name":"Liberty Plaza",
+      "location":"Negombo/ Colombo",
+      "openDate": "2023/02/12"
+    }
+  ],
+  "provinces":[
+    {
+      "id":0,
+      "name":"North Province"
+    },
+    {
+      "id":1,
+      "name":"North Central Province"
+    },
+    {
+      "id":2,
+      "name":"Sothern Province"
+    },
+    {
+      "id":3,
+      "name":"Western Province"
+    }, 
+    {
+      "id":4,
+      "name":"Eastern Province"
+    },
+    {
+      "id":5,
+      "name":"Central Province"
+    },
+    {
+      "id":6,
+      "name":"North Western Province"
+    },
+    {
+      "id":7,
+      "name":"Uwa Province"
+    },
+    {
+      "id":8,
+      "name":"Sabaragamuwa Province"
+    }
+  ],
+  "district":[
+    {
+      "provinceId":0,
+      "name":"Jaffna"
+    },
+    {
+      "provinceId":0,
+      "name":"Kilinochchi"
+    },
+    {
+      "provinceId":0,
+      "name":"Vavniya"
+    },
+    {
+      "provinceId":0,
+      "name":"Mannar"
+    },
+    {
+      "provinceId":0,
+      "name":"Madakalapu"
+    },
+    {
+      "provinceId":1,
+      "name":"Anuradhapura"
+    },
+    {
+      "provinceId":1,
+      "name":"Polonnaruwa"
+    },
+    {
+      "provinceId":2,
+      "name":"Galle"
+    },
+    {
+      "provinceId":2,
+      "name":"Matara"
+    },
+    {
+      "provinceId":2,
+      "name":"Hambanthota"
     }
   ]
+}

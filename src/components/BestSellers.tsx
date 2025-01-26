@@ -3,7 +3,8 @@ import React from 'react'
 
 function BestSellers() {
   return (
-    <div>
+    <div className='card'>
+       <h2 style={{fontWeight:'bolder'}}>Best Sellers</h2>
        <ul>
         <li>abc</li>
         <li>abc</li>

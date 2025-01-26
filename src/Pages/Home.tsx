@@ -15,8 +15,11 @@ function Home() {
         <SignOption/>
         <WelcomeDeals/>
         </div>
-       <BestSellers/>
-       <div className='column'>
+        <div className='hideWhenSmallScreen'>
+        <BestSellers/>
+        </div>
+       
+       <div className='hideWhenSmallScreen column'>
         <Choise/>
         <WeeklyDeals/>
        </div>

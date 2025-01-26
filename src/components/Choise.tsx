@@ -2,7 +2,8 @@ import React from 'react'
 
 function Choise() {
   return (
-    <div>Choise</div>
+    <div className='card'>
+       <h2 style={{fontWeight:'bolder'}}>Choise</h2></div>
   )
 }
 

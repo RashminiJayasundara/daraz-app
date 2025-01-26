@@ -12,8 +12,13 @@ code {
     monospace;
 }
 
-button{
+.iconbutton{
   color: orange;
+  background: none;
+  border: none;
+  cursor: 'pointer'
+}
+.productbutton{
   background: none;
   border: none;
 }
@@ -30,6 +35,8 @@ ul{
   align-items: center;
   color: orange;
   position: sticky;
+  z-index: 1000;
+  background-color: black;
 }
 .listIcon:hover{
   color: burlywood;
@@ -113,7 +120,13 @@ ul{
   display: flex;
   flex-direction: column;
 }
-
+.menuRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
 .menuContainer {
   position: relative; /* Ensures menu is positioned relative to this container */
 }
@@ -125,6 +138,7 @@ ul{
   border-radius: 5px;
   padding: 10px;
   z-index: 1000;
+  width: 15vw;
 }
 
 .menu ul {
@@ -147,6 +161,7 @@ ul{
   font-weight: bolder;
   padding-inline: 2%;
   margin: 0 auto; /* Center the advertisement */
+  margin-bottom: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(244, 168, 4, 0.4); /* Proper box-shadow with transparency */
   max-width: 800px; /* Limit the width for better responsiveness */
@@ -164,6 +179,33 @@ ul{
   margin-top:10px;
   margin-bottom: 10px; /* Add spacing below the image */
 }
+.rowColumn{
+  display: flex;
+  flex-direction: row;
+}
+.cartItem{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50vw;
+  background-color: #f1dfb7;
+  border-radius: 10px;
+  margin:10px;
+  padding:10px
+
+}
+.productCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(241, 212, 157);
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 16vw;
+  height: 20vw;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
 /* Make it responsive for smaller screens */
 @media screen and (max-width: 768px) {
   .advertisment {
@@ -173,6 +215,18 @@ ul{
   }
   .advertisment-image {
     max-height: 150px;
+  }
+  .rowColumn{
+    flex-direction: column;
+  }
+  .hideWhenSmallScreen{
+    display: none;
+  }
+  .cartItem{
+    width: 80vw;
+  }
+  .productCard{
+    height: 30vw;
   }
   
 }
@@ -184,6 +238,9 @@ ul{
   }
   .advertisment-image {
     max-height: 120px;
+  }
+  .productCard{
+    height: 24vw;
   }
 }
 
@@ -200,12 +257,234 @@ ul{
   overflow: hidden;
   background-color: #f1dfb7;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: 20px;
+  margin: 10px;
   padding: 15px;
 }
 button.large-button{
   background-color: black;
+  color: #f1dfb7;
   border-radius: 20px;
   padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+button.large-button:hover{
+  background-color: brown;
+}
+button.large-button:disabled{
+  background-color: #aaa;
+  cursor:auto;
+}
+.productimg{
+  height: 12vw;
+  width: 12vw;
+  border-radius: 15px;
+  border-color: black;
+  padding: 10px;
+}
+
+.grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.productCard:hover{
+  background-color: rgb(233, 156, 62);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  transform: scale(1.07);
+}
+
+.singleItemCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #f1dfb7;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vw;
+}
+.singleItemimg{
+  height: 30vw;
+  width: 30vw;
+  border-radius: 15px;
+  border-color: black;
+  padding: 10px;
+}
+.storeInfo{
+  cursor: pointer;
+  border-bottom: 2px solid rgb(241, 127, 4,0.5);
+  margin: 5px;
+}
+
+.cartOperationBox{
+  background-color: hsl(30, 23%, 95%);
+  border-radius: 10px;
+  height: 2vw;
+  right: 30px;
+  bottom: 30px;
+  position: absolute;
+}
+
+.iconbutton:hover{
+  color: brown;
+}
+.iconbutton:disabled{
+  color: #aaa;
+  cursor: auto;
+}
+
+
+input[type='checkbox']{
+ transform:scale(1.5);
+}
+.rowSpaceBetween{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerBox{
+  background-color: rgb(224, 192, 132);
+  color: black;
+  padding: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 30px;
+}
+
+.footer{
+  margin: 0;
+  bottom: 10px;
+}
+
+.popup{
+  z-index: 2000;
+  position: fixed;
+  top: 10vw;
+  left:20vw;
+  width: 50%;
+  margin: 10px;
+  background-color:#f2d4a4;
+  border-radius: 10px;
+  padding: 20px;
+  transition: ease-out 300ms;
+ 
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg)
+  }
+  100%{
+    transform: rotate(360deg)
+  }
+}
+.loadingCircle{
+  animation: spin 1s linear infinite;
+  margin-left: 45vw;
+  margin-right:45vw; 
+  margin-top: 20;
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border: 4px solid #f6df0e; /* Light gray border */
+  border-top: 4px solid #e1c007; /* Blue border at the top */
+  border-radius: 50%;
+}
+
+@keyframes loading-animation {
+  0% {
+    transform: scaleX(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scaleX(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity:0.5
+  }
+}
+
+.loading-rect {
+  transform-origin: center; 
+  transform-box: fill-box; 
+  animation: loading-animation 1s linear infinite;
+  fill: rgb(238, 196, 117);
+}
+
+.formInput{
+  margin: 8px;
+  width: 80%; /* Ensures the input takes the full space */
+  font-size: 1rem;
+  padding: 8px;
+}
+
+button.menuItemButton{
+  background-color: black;
+  color: #f1dfb7;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: "20vw";
+}
+
+.overlay{
+  position: "fixed";
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(82, 176, 118,0.1);
+  z-index: 1999;
+}
+.otpBox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.otpNumBox {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.singleNumberInput {
+  width: 100%;
+  height: 100%;
+  text-align: center;
   font-size: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: #f9f9f9;
+}
+
+.singleNumberInput:focus {
+  border: 1px solid #a3660b;
+  background-color: #fff;
+}
+
+@media (max-width:600px) {
+  .otpBox {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .otpNumBox {
+    width: 40px;
+    height: 40px;
+  }
 }
